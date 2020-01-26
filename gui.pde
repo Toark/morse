@@ -15,11 +15,11 @@
  */
 
 public void input_change1(GTextField source, GEvent event) { //_CODE_:input:201393:
-  println("input - GTextField >> GEvent." + event + " @ " + millis());
+ // println("input - GTextField >> GEvent." + event + " @ " + millis());
 } //_CODE_:input:201393:
 
 public void button1_click1(GButton source, GEvent event) { //_CODE_:button1:688492:
-  println("button1 - GButton >> GEvent." + event + " @ " + millis());
+ // println("button1 - GButton >> GEvent." + event + " @ " + millis());
   morseTranslate(input.getText());
 } //_CODE_:button1:688492:
 
